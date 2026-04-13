@@ -1,0 +1,52 @@
+# Environment & Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+*.env
+
+# Google Service Account Key — if downloaded locally
+service-account.json
+credentials.json
+google-credentials.json
+*-credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+pip-cache/
+
+# Logs & temp files
+logs/
+*.log
+error-log.txt
+pipeline-status.txt
+/tmp/
+
+# Generated images (temporary — not needed in repo)
+/tmp/images/
+*.png
+*.jpg
+*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any tools use it)
+node_modules/
+
+# Test outputs
+/test-output/
+/test-articles/
